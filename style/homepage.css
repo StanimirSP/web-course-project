@@ -1,0 +1,127 @@
+body {
+    font-size: 17px;
+    margin: 0px;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url("img/dots.jpg");
+    background-size: cover;
+}
+
+#main {
+  text-align:justify;
+  justify-content: center;
+}
+
+#schedule-main-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-family: 'PT Sans', sans-serif;
+    min-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+    justify-content: center;
+}
+
+    #schedule-main-table thead tr {
+        background-color: #8cc1f3;
+        color: #ffffff;
+        text-align: left;
+        border: #115ca2;
+    }
+
+    #schedule-main-table th,
+    #schedule-main-table td {
+        padding: 12px 17px;
+        border: 2px solid #115ca2;
+        padding: 8px;
+    }
+
+
+    #schedule-main-table th {
+        border: 2px solid #ffffff;
+    }
+
+    #schedule-main-table tr:hover {
+        background-color: #ddd;
+    }
+
+    #schedule-main-table tbody tr {
+        border-bottom: 2px solid #115ca2;
+        
+    }
+
+
+h1 {
+    padding: 7px;
+    text-align: center;
+    color: #0a345c;
+}
+
+.btn-view {
+  margin: 0 auto;
+  display:block;
+  background-color: #0a345c;
+  color: white;
+  border-radius: 7px;
+}
+
+.btn-del {
+    margin: 0 auto;
+  display:block;
+  background-color: #0a345c;
+  color: white;
+  border-radius: 7px;
+}
+
+.btn-lock {
+    margin: 0 auto;
+  display:block;
+  background-color: #0a345c;
+  color: white;
+  border-radius: 7px;
+}
+
+.button {
+    display: block;
+    margin-right: 10px;
+    border: 2px solid #172f45;
+    padding: 3px;
+    background-color: #8cc1f3;
+    color: #0a345c;
+    user-select: none;
+    border-radius : 7px;
+	text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0a345c;
+  color: white;
+}
+
+
+#create-schedule-btn, #csv-import {
+	display: none;
+}
+nav{
+  height: 60px;
+  width:100%;
+  margin-top: 0px;
+  background-color: #8cc1f3;
+  position: sticky;
+  z-index: 9999;
+
+}
+ nav h3{
+  font-weight: normal;
+  float: right;
+}
+
+nav img {
+	width:160px;
+	height:50px;
+}
+
+figure{
+float:left;
+margin-top:5px;
+}

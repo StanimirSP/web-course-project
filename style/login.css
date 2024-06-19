@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url("img/dots.jpg");
+    background-size: cover;
+}
+
+
+#login-form .form-control {
+    border-radius: 0;
+    font-size: .9em;
+}
+
+main {
+    border-radius: 3rem;
+    width: 100%;
+    -webkit-box-shadow: -1px -2px 42px -19px #000000;
+    -moz-box-shadow: -1px -2px 42px -19px #000000;
+    box-shadow: -1px -2px 42px -19px #000000;
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+    .column#login-form {
+        flex: 80%;
+        padding: 50px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+#secondary {
+    background-color: #a9d1f6;
+    border-radius: 0 3rem 3rem 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.form-btn {
+    color: white;
+    border-color: white;
+    background: #a9d1f6; /* Old browsers */
+    background: -moz-linear-gradient(left, #a9d1f6 0%, #0a345c 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #a9d1f6 0%,#0a345c 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a9d1f6 0%,#0a345c 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9d1f6', endColorstr='#0a345c',GradientType=1 ); /* IE6-9 */
+}
+
+    .form-btn:hover {
+        border-color: #0a345c;
+        color: #0a345c;
+    }
+
+.registration-btn {
+    display: block;
+    border-radius: .15rem;
+    padding: .300rem .150rem;
+    background: #f8f9fa4f;
+    color: white;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+
+input {
+    display: block;
+    border: 1px solid #798181;
+    margin: 10px;
+    padding: 7px;
+    width: 300px;
+    box-sizing: content-box;
+}
+
+    input:hover {
+        border-color: #a9d1f6;
+    }
+
+h1 {
+    padding: 7px;
+    text-align: center;
+    color: #0a345c;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.error {
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    background-color: #c99e9c;
+    color: #ffffff;
+    width: 304px;
+    font-size: 14px;
+}
+
+#success {
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    background-color: #30db55;
+    color: #ffffff;
+    width: 304px;
+}

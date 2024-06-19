@@ -1,0 +1,101 @@
+body {
+    background-image: url("img/blue.jpg");
+    background-size: cover;
+	margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+#schedule-record-table {
+    background-image: url("img/dots.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    height: 60%;
+    padding: 20px;
+}
+
+.error {
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    background-color: #d0d0d0;
+    border: 1px solid #172f45;
+    color: #172f45;
+    width: 304px;
+}
+
+#schedule-record-table td {
+    border: 1px solid #172f45;
+    padding: 8px;
+}
+
+#schedule-record-table tr:hover {background-color: #ddd;}
+
+#schedule-record-table th {
+    border: 1px solid #ffffff;
+    padding: 12px 8px;
+    text-align: left;
+    background-color: #172f45;
+    color: #ffffff;
+}
+
+.button {
+    display: block;
+    margin-right: 10px;
+    border: 2px solid #172f45;
+    padding: 3px;
+    background-color: #8cc1f3;
+    color: #0a345c;
+    user-select: none;
+    border-radius : 7px;
+	text-decoration: none;
+}
+
+#btn-pdf {
+	background-color: #172f45;
+	color: #ffffff;
+	padding: 10px 25px;
+	font-size: 16px;
+	margin: 4px 10px;
+	cursor: pointer;
+}
+	#btn-pdf:hover {
+		background-color: #ffffff;
+		color: #172f45;
+		border: 2px solid #172f45;
+	}
+
+nav {
+	height: 60px;
+	width:100%;
+	margin-top: 0px;
+	background-color: #8cc1f3;
+	position: sticky;
+	z-index: 9999;
+
+}
+
+nav h3 {
+	font-weight: normal;
+	float: right;
+}
+
+nav img {
+	width:160px;
+	height:50px;
+}
+
+figure {
+	float:left;
+	margin-top:5px;
+}

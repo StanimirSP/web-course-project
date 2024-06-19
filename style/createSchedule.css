@@ -1,0 +1,122 @@
+body {
+    /*background-color: #a9d1f6;*/
+    background-image: url("img/blue.jpg");
+    background-size: cover;
+	margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+	/*display: inline-block;*/
+	position: absolute ;
+    top: 15%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    border: 1px solid #172f45;
+    border-image: url("img/dots.jpg") 20 fill;
+    border-radius: 10px;
+    /*display: inline-block;*/
+    padding: 20px;
+    position: absolute;
+	top: 60%;
+    left: 50%;
+    margin: 20px;
+    transform: translate(-50%, -50%);
+    /*filter: blur(10px);*/
+}
+
+/*section {
+	text-align:justify;
+	justify-content: center;
+	display: inline-block;
+}*/
+
+.form-btn {
+    border-color: #172f45;
+    background-color: #5ebbdd;
+    color: #172f45;
+}
+
+    .form-btn:hover {
+        border-color: #5ebbdd;
+        background-color: #172f45;
+        color: #5ebbdd;
+    }
+
+input {
+    display: block;
+    border: 2px solid #172f45;
+    margin: 10px;
+    padding: 7px;
+    width: 300px;
+    box-sizing: content-box;
+}
+
+    input:hover {
+        border-color: #79a06b;
+    }
+
+.error {
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    background-color: #d0d0d0;
+    border: 1px solid #172f45;
+    color: #172f45;
+    width: 304px;
+}
+
+#success {
+    display: block;
+    margin: 10px;
+    padding: 7px;
+    background-color: #30db55;
+    color: #ffffff;
+    width: 304px;
+}
+
+nav {
+	height: 60px;
+	width:100%;
+	margin-top: 0px;
+	background-color: #8cc1f3;
+	position: sticky;
+	z-index: 9999;
+
+}
+
+nav h3 {
+	font-weight: normal;
+	float: right;
+}
+
+nav img {
+	width:160px;
+	height:50px;
+}
+
+figure {
+	float:left;
+	margin-top:5px;
+}
+
+.button {
+    display: block;
+    margin-right: 10px;
+    border: 2px solid #172f45;
+    padding: 3px;
+    background-color: #8cc1f3;
+    color: #0a345c;
+    user-select: none;
+    border-radius : 7px;
+	text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0a345c;
+  color: white;
+}

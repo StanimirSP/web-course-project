@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Начална страница</title>
+    <meta charset="UTF-8" />
+    <link href="./style/homepage.css" rel="stylesheet" />
+    <script src="./js/view.js" defer charset="utf-8"></script>
+</head>
+<body>
+    	<nav id="nav">
+                <figure>
+			<img src="style/img/logo3.png" alt="Trulli">
+		</figure>
+		<h3><a class="button" onclick="exit()">Изход</a></h3>
+		<h3><a class="button" id="csv-import" onclick="import_helper()">Import from csv</a></h3>
+		<h3><input id="csv-input" type="file" accept=".csv" hidden></input></h3>
+		<h3><a href="./createSchedule.html" class="button" id="create-schedule-btn">Създаване на график</a></h3>
+	</nav>
+    <main id="homepage-main">
+	<h1>Преглед на графици</h1>
+        <section>
+			<table id="schedule-main-table">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Заглавие</th>
+						<th>Дата</th>
+						<th>Автор</th>
+						<th>Отворено за записване</th>
+						<th>Опция за преглед</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</section>
+    </main>
+</body>
+</html>
