@@ -1,3 +1,4 @@
+# MySchedule
 See [documentation](docs/documentation.pdf).
 
 Created together with
